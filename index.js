@@ -29,6 +29,7 @@ function mainFunction(e) {
       inputValue;
 
     input.parentElement.querySelector("button").innerText = "+";
+    input.value = "";
   } else {
     const newItem = document.createElement("div");
     const editBtn = document.createElement("button");
